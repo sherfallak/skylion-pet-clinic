@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SkylionPetClinicApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(SkylionPetClinicApplication.class, args);
+		System.out.println("Pet application by fallak");
+
+
 	}
 
 }
