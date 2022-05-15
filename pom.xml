@@ -14,7 +14,7 @@
     </parent>
     <groupId>fallak</groupId>
     <artifactId>skylion-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>skylion-pet-clinic</name>
     <description>skylion-pet-clinic</description>
     <properties>
@@ -30,9 +30,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
                 <configuration>
-                <checkModificationExcludes>
-                    <checkModificationExclude>pom.xml</checkModificationExclude>
-                </checkModificationExcludes>
                     <goal>install</goal>
                 </configuration>
             </plugin>
@@ -40,6 +37,6 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:sherfallak/skylion-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>skylion-pet-clinic-0.0.2</tag>
   </scm>
 </project>
